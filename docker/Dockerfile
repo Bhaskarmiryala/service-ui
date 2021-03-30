@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER Andrei Varabyeu <andrei_varabyeu@epam.com>
+MAINTAINER Bhaskar Miryala <bhaskar.miryala@cdk.com>
 
 ADD ./bin/service-ui /
 ADD ./build/resources/main/public /public
