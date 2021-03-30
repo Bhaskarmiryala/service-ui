@@ -3,7 +3,7 @@ FROM alpine:3.10
 LABEL maintainer="Bhaskar Miryala <bhaskar.miryala@cdk.com>"
 LABEL version=5.3.5
 
-ENV APP_DOWNLOAD_URL https://dl.bintray.com/epam/reportportal/5.3.5
+ENV APP_DOWNLOAD_URL https://github.com/reportportal/reportportal.git
 
 ADD ${APP_DOWNLOAD_URL}/service-ui_linux_amd64 /service-ui
 ADD ${APP_DOWNLOAD_URL}/ui.tar.gz /
