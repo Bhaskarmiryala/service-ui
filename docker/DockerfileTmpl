@@ -1,6 +1,6 @@
 FROM alpine:3.10
 
-LABEL maintainer="Andrei Varabyeu <andrei_varabyeu@epam.com>"
+LABEL maintainer="Bhaskar Miryala <bhaskar.miryala@cdk.com>"
 LABEL version={{.version}}
 
 ENV APP_DOWNLOAD_URL https://dl.bintray.com/epam/reportportal/{{.version}}
