@@ -1,6 +1,6 @@
 FROM alpine:3.11
 
-LABEL maintainer="Andrei Varabyeu <andrei_varabyeu@epam.com>"
+LABEL maintainer="Bhaskar Miryala <bhaskar.miryala@cdk.com>"
 LABEL quay.expires-after=1w
 #LABEL version=5.0.0-BETA-8
 
