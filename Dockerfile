@@ -1,6 +1,6 @@
 FROM alpine:3.10
 
-LABEL maintainer="Bhaskar Miryala <bhaskar.miryala@cdk.com>"
+LABEL maintainer="Bhaskar Miryala <bhaskarmiryala@gmail.com>"
 LABEL version=5.3.5
 
 ENV APP_DOWNLOAD_URL https://github.com/reportportal/reportportal.git
